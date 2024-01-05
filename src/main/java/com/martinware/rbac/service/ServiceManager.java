@@ -35,7 +35,7 @@ public class ServiceManager {
 
     public String deleteService(int id) {
         repository.deleteById(id);
-        return "Service deleted " + id;
+        return "Service deleted: " + id;
     }
 
     public ServiceDto updateService(ServiceDto service) {
